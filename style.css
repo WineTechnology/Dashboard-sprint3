@@ -1,0 +1,86 @@
+body{
+    background: #FFDFB2;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: system-ui;
+    font-size: 15px;
+    line-height: 2px;
+}
+.container{
+    display: grid;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+.flex-content{
+    display: flex;
+    flex-direction: row;
+}
+.flex-content-column{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+}
+.logo img{
+    height: 130px;
+}
+.btn{
+    background: #2A3411;
+    height: 51px;
+    width: 48px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 2000%;
+}
+.fas{
+    color: #FFDFB2;
+    padding: 10px;
+}
+.linha{
+    background: #73662C;
+    height: 1px;
+    width: 100%;
+}
+.linhapag{
+    background: #2A3411;
+    height: 2px;
+    width: 90%;
+    margin-left: 115px;
+}
+.dois{
+    margin-left: 121px;
+}
+.menu p{
+    font-weight: 600;
+    font-size: 17px;
+    color: #000000;
+    padding-left: 50px;
+    margin-left: 160px;
+}
+.setor{
+    margin-left: 32%;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.grafico{
+    background: #ffffff;
+    height: 230px;
+    width: 335px;
+    border-radius: 5px;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+.graphtwo{
+    width: 340px;
+    padding-right: 43px;
+
+}
